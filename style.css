@@ -1152,6 +1152,23 @@ footer p {
 
 }
 
+.contact-info-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 18px;
+    border: 1px solid #eee3df;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-info-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(80, 50, 40, 0.08);
+}
 
 /* Mobile */
 
